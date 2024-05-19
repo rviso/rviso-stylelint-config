@@ -1,0 +1,5 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化工具
+  "editor.formatOnSave": true,
+  "cSpell.words": ["rviso", "stylelint"] // 默认情况下使用prettier格式化代码 , 每次保存的时候自动格式化Prettier
+}

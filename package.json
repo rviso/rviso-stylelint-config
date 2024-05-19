@@ -1,0 +1,50 @@
+{
+  "name": "@rviso/stylelint-config",
+  "version": "0.1.0",
+  "description": "stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rviso/rviso-stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "css",
+    "scss"
+  ],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "author": "lingann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rviso/rviso-stylelint-config/issues"
+  },
+  "homepage": "https://github.com/rviso/rviso-stylelint-config#readme",
+  "peerDependencies": {
+    "prettier": ">=2.8.8",
+    "stylelint": ">=15"
+  },
+  "dependencies": {
+    "postcss": "^8.4.38",
+    "postcss-html": "^1.7.0",
+    "postcss-less": "^6.0.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint-config-recess-order": "^4.6.0",
+    "stylelint-config-recommended": "^13.0.0",
+    "stylelint-config-standard": "^31.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "sass": "1.56.2",
+    "stylelint": "^15.11.0"
+  }
+}
